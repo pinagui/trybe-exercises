@@ -249,7 +249,7 @@ Este repositório contém todas as atividades desenvolvidas por [Guilherme Pina]
 
 ##### **Bloco 33: Arquitetura de Computadores e Redes**
 
-- [ ]33.1 - Introdução - Ciência da Computação
+- [ ] 33.1 - Introdução - Ciência da Computação
 - [ ] 33.2 - Arquitetura de Computadores
 - [ ] 33.3 - Arquitetura de redes
 - [ ] 33.4 - Redes de computadores, ferramentas e segurança
