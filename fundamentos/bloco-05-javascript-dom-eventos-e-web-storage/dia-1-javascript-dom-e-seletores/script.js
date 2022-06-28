@@ -25,3 +25,8 @@ function blockChangeColorInside(){
     document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
 }
 blockChangeColorInside();
+
+function correctName(){
+    document.getElementsByTagName('h1')[0].innerText = 'Exercício 5.1 - JavaScript';
+}
+correctName();
