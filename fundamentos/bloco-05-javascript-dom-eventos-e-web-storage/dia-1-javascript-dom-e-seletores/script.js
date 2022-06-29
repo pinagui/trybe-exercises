@@ -48,4 +48,10 @@ pUpperCase();
 
 //6 - Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
-    
+function consoleP(){    
+    let tagPConsole = document.getElementsByTagName('p');
+    for(tagPConsole of pMaiusculo){
+        console.log(tagPConsole.innerText);
+    }
+}
+consoleP();
