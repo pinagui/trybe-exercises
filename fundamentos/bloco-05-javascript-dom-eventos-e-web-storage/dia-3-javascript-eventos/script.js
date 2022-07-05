@@ -90,3 +90,20 @@ function displayHolidays() {
 }
 
 displayHolidays();
+
+/* 4- Implemente uma função que crie dinamicamente um botão com o nome    "Sexta-feira". Sua função deve receber como parâmetro a string      "Sexta-feira".
+  Adicione a esse botão o ID "btn-friday"; 
+  Adicione esse botão como filho/filha da tag <div> com classe "buttons-container". 
+  */
+
+
+function createFridayButton(buttonName) {
+  let buttonContainer = document.querySelector('.buttons-container');
+  let newButton = document.createElement('button');
+  newButton.id = 'btn-friday';
+  newButton.innerHTML = buttonName;
+  
+  buttonContainer.appendChild(newButton);
+}
+
+createFridayButton('Sexta-feira');
