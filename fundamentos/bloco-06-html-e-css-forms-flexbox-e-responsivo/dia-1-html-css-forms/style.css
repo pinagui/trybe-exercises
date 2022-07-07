@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  font-size: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+.style {
+  padding: 10px;
+  color: gray;
+}
+
+.opcoes {
+  color: gray;
+  margin-top: 10px;
+}
+
+.radioCheck {
+  margin-left: 10px;
+}
+
+.answordSpace {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 20px;
+  color: gray;
+}
+
+.date {
+  color: gray;
+  padding: 5px;
+}
+
+.verifica {
+  margin-top: 5px;
+}
+
+.btn {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.btn-click {
+  padding: 5px 20px;
+  border-radius: 5px;
+  background-color: white;
+  color: gray;
+  border: 1px gray solid;
+}
+
+.btn-click:hover {
+  cursor: pointer;
+  background-color: rgb(177, 177, 177);
+}
