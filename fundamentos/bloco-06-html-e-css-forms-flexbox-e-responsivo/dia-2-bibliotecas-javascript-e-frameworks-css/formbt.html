@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TrybeTrip</title>
+</head>
+
+<body>
+  <fieldset>
+    <legend id="header">Trybe Trip</legend>
+    <form action="" method="get">
+      <div class="style">
+        <label for="name">Nome:
+          <input type="text" maxlength="40" minlength="10" name="name" id="name" placeholder="Digite seu nome" required>
+        </label>
+      </div>
+      <div class="style">
+        <label for="email">Email:
+          <input type="email" name="email" minlength="10" maxlength="50" id="email" placeholder="Digite seu e-mail" required>
+        </label>
+      </div>
+      <div class="opcoes">
+        <input class="radioCheck" type="radio" name="opcoes" id="cidade" value="op1">
+        <label for="cidade">Cidade</label>
+
+        <input class="radioCheck" type="radio" name="opcoes" id="campo" value="op2">
+        <label for="campo">Campo</label>
+
+        <input class="radioCheck" type="radio" name="opcoes" id="praia" value="op3">
+        <label for="praia">Praia</label>
+
+        <input class="radioCheck" type="radio" name="opcoes" id="montanhas" value="op4">
+        <label for="montanhas">Montanhas</label>
+      </div>
+      <div class="answordSpace">
+        <label for="resposta">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+          <textarea name="resposta" maxlength="500" id="resposta" cols="30" rows="5"></textarea>
+        </label>
+      </div>
+      <dir class="style">Melhor Data para Viagem:
+        <label for="date">
+        <input class="date" type="date" name="date" id="date">
+      </div>
+      <div class="verifica">
+        <label for="verifica1">Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?</label>
+        <input type="checkbox" name="verifica1" id="verifica1">
+      </div>
+      <div class="verifica">
+        <label for="verifica2">
+          Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+          </label>
+        <input type="checkbox" name="verifica2" id="verifica2">
+      </div>
+      <div class="btn">
+        <button class="btn-click" type="submit">Enviar</button>
+        <button class="btn-click" type="reset">Apagar</button>
+      </div>
+    </form>
+  </fieldset>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
