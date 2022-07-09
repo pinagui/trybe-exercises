@@ -4,56 +4,27 @@
   box-sizing: border-box;
 }
 
-#header {
-  font-size: 40px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: gray;
+.title-form {
+  background-color: rgb(224, 115, 115);
+  margin-bottom: 3px;
+
 }
 
-.style {
-  padding: 10px;
-  color: gray;
+.space {
+  margin-bottom: 5px;
 }
 
-.opcoes {
-  color: gray;
-  margin-top: 10px;
-}
-
-.radioCheck {
-  margin-left: 10px;
-}
-
-.answordSpace {
-  margin-top: 20px;
-  margin-left: 10px;
-  font-size: 20px;
-  color: gray;
-}
-
-.date {
-  color: gray;
-  padding: 5px;
-}
-
-.verifica {
-  margin-top: 5px;
+.form {
+  /* border: 1px solid blue; */
+  text-align: center;
+  max-width: 80%;
+  margin-left: 10%;
+  background-color: rgb(230, 230, 230);
+  border-radius: 20px;
+  box-shadow: 10px 5px 5px rgb(179, 179, 179);
+  margin-bottom: 10px;
 }
 
 .btn {
   margin-top: 10px;
-  margin-left: 20px;
-}
-
-.btn-click {
-  padding: 5px 20px;
-  border-radius: 5px;
-  background-color: white;
-  color: gray;
-  border: 1px gray solid;
-}
-
-.btn-click:hover {
-  cursor: pointer;
-  background-color: rgb(177, 177, 177);
 }
