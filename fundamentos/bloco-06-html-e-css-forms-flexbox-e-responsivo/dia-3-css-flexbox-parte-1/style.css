@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #323433;
+  color: #F9F9F9;
+}
+
+.container-header a {
+  color: #F9F9F9;
+}
+
+.img {
+  width: 50px;
+}
