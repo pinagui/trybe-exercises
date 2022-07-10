@@ -50,3 +50,14 @@
 .tech h2{
   text-align: center;
 }
+
+footer img {
+  width: 30px;
+  margin-left: 20px;
+}
+
+.footer-img {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
