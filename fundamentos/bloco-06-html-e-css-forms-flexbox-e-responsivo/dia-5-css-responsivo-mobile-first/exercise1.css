@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header p {
+  margin: 15px auto;
+  width: 100%;
+  font-size: 30px;
+  font-weight: 550;
+  text-align: center;
+}
+
+header li {
+  list-style-type: none;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.aside-one h2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.aside-one ul {
+  list-style-type: none;
+}
+
+.aside-two h2 {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+.aside-two ul {
+  list-style-type: none;
+}
+
+.main-content h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.main-content p {
+  font-size: 17px;
+}
+
+footer h3 {
+  text-align: center;
+  margin: 15px 0;
+}
+
+footer p {
+  font-size: 13px;
+  text-align: center;
+}
+
+@media screen and (min-width: 450px) {
+  
+
+  header ul {
+    justify-content: space-around;
+  }
+
+  .aside-one ul {
+    text-align: center;
+  }
+
+  .aside-two ul {
+    text-align: center;
+  }
+
+  header p {
+    font-size: 50px;
+  }
+
+  header li {
+    font-size: 20px;
+  }
+
+  .aside-one h2 {
+    font-size: 40px;
+  }
+
+  .aside-two h2 {
+    font-size: 40px;
+  }
+
+  .main-content h1 {
+    font-size: 35px;
+  }
+
+  .aside-one li {
+    font-size: 20px;
+  }
+
+  .aside-two li {
+    font-size: 20px;
+  }
+
+  .main-content p {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  
+  body {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    width: 70%;
+    margin: 20px auto;
+  }
+
+  header p {
+    font-size: 55px;
+  }
+
+  header li {
+    font-size: 25px;
+  }
+
+  .aside-one h2 {
+    font-size: 45px;
+  }
+
+  .aside-two h2 {
+    font-size: 45px;
+  }
+
+  .main-content h1 {
+    font-size: 40px;
+  }
+
+  .aside-one li {
+    font-size: 23px;
+  }
+
+  .aside-two li {
+    font-size: 23px;
+  }
+
+  .main-content p {
+    font-size: 25px;
+  }
+
+  footer h3 {
+    font-size: 30px;
+  }
+
+  footer p {
+    font-size: 20px;
+    margin: 15px 0;
+  }
+}
