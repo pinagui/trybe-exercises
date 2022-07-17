@@ -118,6 +118,47 @@ btn.addEventListener('click', (event) => {
   }
 });
 
+/*
+    🚀 Crie duas funções JavaScript com as seguintes especificações:
+
+Não se esqueça de usar template literals
+
+    Função 1: Escreva uma função que substitua a letra 'x' em uma frase.
+        A função deverá receber um nome por parâmetro;
+        Declare dentro da função uma variável com o nome frase, do tipo const e com o valor igual a 'Tryber x aqui!';
+        A função deverá retornar uma nova frase onde o x da frase 'Tryber x aqui!' seja substituído pelo nome passado por parâmetro.
+    Exemplo:
+        Parâmetro: 'Bebeto'
+        Retorno: 'Tryber Bebeto aqui!'
+    Função 2: Escreva uma função que irá receber o retorno da Função 1 por parâmetro e retornará uma nova string.
+        A função deverá receber o retorno da Função 1 por parâmetro;
+        Declare dentro da função uma variável com o nome skills, do tipo const;
+            A variável skills deverá ser um array contendo três strings com tecnologias que você já aprendeu.
+        Concatene o valor retornado da Função 1, a frase 'Minhas três principais habilidades são:' e o valor da variável skills.
+    Exemplo de retorno:
+    Tryber Bebeto aqui!
+    Minhas três principais habilidades são:
+        JavaScript
+        HTML
+        CSS
+*/
+
+const suprisePhrase = (name) => {
+  const phrase = 'Tryber x aqui!';
+  const newPhrase = phrase.replace('x', name);
+  return newPhrase;
+}
+
+const finalPhrase = (newPhrase) => {
+  const skills = ['JavaScript', 'HTML', 'CSS'];
+
+return (`${newPhrase}
+Minhas três principais habilidades são:
+${skills[0]}
+${skills[1]}
+${skills[2]}`);
+}
+console.log(finalPhrase(suprisePhrase('Ronaldinho')));
 
 
 
