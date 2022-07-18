@@ -78,3 +78,9 @@ const totalStudents = (obj) => {
 }
 
 totalStudents(allLessons);
+
+//Crie uma função que obtenha o valor da chave de acordo com o seu índice no objeto.
+
+const getValueByNumber = (obj, index) => Object.values(obj)[index];
+
+console.log(getValueByNumber(lesson3, 0));
