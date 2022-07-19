@@ -84,3 +84,25 @@ totalStudents(allLessons);
 const getValueByNumber = (obj, index) => Object.values(obj)[index];
 
 console.log(getValueByNumber(lesson3, 0));
+
+
+//Crie uma função que verifique se o par (chave / valor) existe na função. Essa função deve possuir três parâmetros, sendo eles: o objeto, o nome da chave e o valor da chave. 
+
+const verifyPair = (obj, key, value) => {
+  
+  const arrObj = Object.entries(obj);
+  let isEqual = false;
+
+  for(let i=0; i < arrObj.length; i+=1){
+    if(arrObj[i][0] === key && arrObj[i][1] === value) 
+    isEqual = true;
+  }
+  return isEqual;
+}
+
+console.log(verifyPair(lesson3, 'professor', 'Maria Clara'));
+
+//   for (let index in arrObj) {
+//     if (arrObj[index][0] === key && arrObj[index][1] === value) console.log(arrObj[index][0]);
+//   }
+// }
