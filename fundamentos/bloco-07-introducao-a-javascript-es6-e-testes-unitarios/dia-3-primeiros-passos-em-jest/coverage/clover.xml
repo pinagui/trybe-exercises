@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658244645572" clover="3.2.0">
-  <project timestamp="1658244645572" name="All files">
+<coverage generated="1658244763273" clover="3.2.0">
+  <project timestamp="1658244763273" name="All files">
     <metrics statements="47" coveredstatements="47" conditionals="36" coveredconditionals="36" methods="5" coveredmethods="5" elements="88" coveredelements="88" complexity="0" loc="47" ncloc="47" packages="1" files="4" classes="4"/>
     <file name="encode-decode.js" path="/home/gpina/Desktop/trybe-exercices/fundamentos/bloco-07-introducao-a-javascript-es6-e-testes-unitarios/dia-3-primeiros-passos-em-jest/encode-decode.js">
       <metrics statements="31" coveredstatements="31" conditionals="20" coveredconditionals="20" methods="2" coveredmethods="2"/>
