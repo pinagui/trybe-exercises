@@ -15,6 +15,6 @@ it('verify Error of 4 + "5"', () => {
 });
 
 it('verify message Error "parameters must be numbers"', () => {
-  () => {expect(sum(4, "5")).toThrow('parameters must be numbers')}
+  expect(() => sum(4, "5")).toThrow(Error);
 }); 
 });
