@@ -11,10 +11,10 @@ it('verify sum of 0 + 0 = 0', () => {
 });
 
 it('verify Error of 4 + "5"', () => {
-  () => {expect(sum(4, "5")).toThrow()}
+  expect(() => sum(4, "5")).toThrow();
 });
 
 it('verify message Error "parameters must be numbers"', () => {
-  () => {expect(sum(4, "5")).toThrow('parameters must be numbers')}
+  expect(() => sum(4, "5")).toThrow(Error);
 }); 
 });
